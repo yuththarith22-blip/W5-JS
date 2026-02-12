@@ -1,8 +1,8 @@
 import React from "react";
 
 export const userData = {
-  firstName: "Ronan", // feel free to replace the name value
-  lastName: "Ogor", // feel free to replace the name value
+  firstName: "sotharith", // feel free to replace the name value
+  lastName: "thal", // feel free to replace the name value
   title: "PN React JS Killer", // feel free to replace the title value
 };
 
@@ -10,8 +10,8 @@ export const userData = {
 export function User() {
   return (
     <div id="user" data-testid="user">
-      <h2>TODO: FIRST NAME LAST NAME</h2>
-      <p>TODO: TITLE</p>
+      <h2>{userData.firstName} {userData.lastName}</h2>
+      <p>{userData.title}</p>
     </div>
   );
 }
