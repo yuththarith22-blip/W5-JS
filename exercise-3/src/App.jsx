@@ -13,6 +13,7 @@ export function User({ user }) {
   );
 }
 
+
 function App(props) {
   return (
     <div id="app">
